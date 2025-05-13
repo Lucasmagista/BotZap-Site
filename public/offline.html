@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BotZap - Sem Conexão</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" href="/icons/icon-192x192.png">
+  <meta name="theme-color" content="#1976D2">
+  <style>
+    :root {
+      --primary: #25D366;
+      --primary-dark: #128C7E;
+      --secondary: #34B7F1;
+      --text: #111827;
+      --background: #f8f9fa;
+      --card: #ffffff;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: var(--primary-dark);
+    }
+    
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: var(--text);
+    }
+    
+    .logo {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 2rem;
+    }
+    
+    .card {
+      background-color: var(--card);
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 2rem;
+    }
+    
+    .btn {
+      display: inline-block;
+      background-color: var(--primary);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background-color: var(--primary-dark);
+    }
+    
+    .hints {
+      margin-top: 2rem;
+    }
+    
+    .hint {
+      background-color: var(--card);
+      border-left: 4px solid var(--secondary);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      text-align: left;
+      border-radius: 0 8px 8px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    
+    .offline-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      color: var(--secondary);
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f8f9fa;
+        --background: #111827;
+        --card: #1f2937;
+      }
+    }
+    
+    /* Animação de pulso para o botão de tentar novamente */
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    .btn-pulse {
+      animation: pulse 2s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/whatsapp-bot.png" alt="BotZap Logo" class="logo">
+    
+    <h1>Você está offline</h1>
+    
+    <div class="card">
+      <div class="offline-icon">
+        📡
+      </div>
+      <p>Não foi possível carregar o conteúdo pois você está sem conexão com a internet.</p>
+      <button onclick="tryReconnect()" class="btn btn-pulse">Tentar Novamente</button>
+    </div>
+    
+    <div class="hints">
+      <h2>Enquanto isso, você pode:</h2>
+      
+      <div class="hint">
+        <strong>Verificar sua conexão</strong>
+        <p>Certifique-se de que seu dispositivo esteja conectado à internet via Wi-Fi ou dados móveis.</p>
+      </div>
+      
+      <div class="hint">
+        <strong>Acessar recursos disponíveis offline</strong>
+        <p>Alguns recursos do BotZap continuam disponíveis mesmo sem internet, como informações salvas anteriormente.</p>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Função para tentar reconectar
+    function tryReconnect() {
+      window.location.reload();
+    }
+    
+    // Verifica periodicamente a conexão
+    function checkConnection() {
+      if (navigator.onLine) {
+        const lastPage = localStorage.getItem('lastPage') || '/';
+        if (window.location.pathname !== lastPage) {
+          window.location.href = lastPage;
+        }
+      }
+    }
+    
+    // Verifica a cada 5 segundos
+    setInterval(checkConnection, 5000);
+    
+    // Detecta quando a conexão é restaurada
+    window.addEventListener('online', function() {
+      checkConnection();
+    });
+  </script>
+</body>
+</html>
