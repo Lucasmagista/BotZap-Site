@@ -329,6 +329,11 @@ Contribuições são bem-vindas e muito apreciadas! Siga os passos abaixo:
 
 </details>
 
+
+## Aviso Legal
+
+Este projeto não é afiliado, associado, autorizado, endossado ou de qualquer forma oficialmente conectado ao WhatsApp ou a qualquer uma de suas subsidiárias ou afiliadas. O site oficial do WhatsApp pode ser encontrado em [whatsapp.com][whatsapp]. "WhatsApp", bem como nomes, marcas, emblemas e imagens relacionados, são marcas registradas de seus respectivos proprietários. Além disso, não há garantia de que você não será bloqueado usando este método. O WhatsApp não permite bots ou clientes não oficiais em sua plataforma, portanto, isso não deve ser considerado totalmente seguro.
+
 ## 📜 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
