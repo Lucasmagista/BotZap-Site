@@ -337,9 +337,9 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-contato@botzap.com.br-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contato@botzap.com.br)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-(11)_99999--9999-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511999999999)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-BotZap-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/botzap)
+[![Email](https://img.shields.io/badge/Email-contato@botzap.com.br-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.magista1@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-(11)_99999--9999-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5517992785352)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-BotZap-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-magista-67376a202/)
 
 </div>
 
