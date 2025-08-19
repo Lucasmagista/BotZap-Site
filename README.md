@@ -1,357 +1,255 @@
-# <img src="public/icons/whatsapp-bot.ico" width="28" /> BotZap - Automação de WhatsApp com IA
+# BotZap - Site Moderno e Interativo
 
-<div align="center">
+## 🚀 Visão Geral
 
-<img src="public/whatsapp-bot.png" alt="BotZap Logo" width="180" />
+O BotZap é um site moderno e interativo para uma plataforma de automação de WhatsApp Business com IA avançada. O projeto foi completamente modernizado com as mais recentes tecnologias e tendências de design.
 
-[![React](https://img.shields.io/badge/React-19.1.0-61DBFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-4.4.5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3.3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![PWA](https://img.shields.io/badge/PWA-Ready-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+## ✨ Principais Melhorias Implementadas
 
-**Revolucione seu atendimento no WhatsApp com Inteligência Artificial**
+### 🎨 Design System Moderno
+- **Glassmorphism**: Efeitos de vidro translúcido em toda a interface
+- **Gradientes Dinâmicos**: Gradientes animados e interativos
+- **Partículas Animadas**: Sistema de partículas em tempo real no Hero
+- **Micro-interações**: Animações suaves em todos os elementos
+- **Responsividade Avançada**: Design adaptativo para todos os dispositivos
 
-[🚀 Live Demo](https://botzap.com.br) &nbsp;•&nbsp; 
-[📚 Documentação](docs/TECHNICAL.md) &nbsp;•&nbsp; 
-[🐛 Reportar Bug](https://github.com/seu-usuario/botzap-site/issues) &nbsp;•&nbsp; 
-[✨ Solicitar Feature](https://github.com/seu-usuario/botzap-site/issues)
+### 🎭 Animações e Interatividade
+- **Framer Motion**: Animações fluidas e performáticas
+- **Scroll Animations**: Animações baseadas no scroll da página
+- **Hover Effects**: Efeitos interativos em cards e botões
+- **Loading States**: Estados de carregamento modernos
+- **Page Transitions**: Transições suaves entre seções
 
-</div>
+### 🎯 Componentes Modernos
 
-<p align="center">
-  <a href="#-sobre-o-projeto">Sobre</a> •
-  <a href="#-recursos">Recursos</a> •
-  <a href="#-demonstração">Demonstração</a> •
-  <a href="#-tecnologias">Tecnologias</a> •
-  <a href="#-começando">Começando</a> •
-  <a href="#-arquitetura">Arquitetura</a> •
-  <a href="#-contribuindo">Contribuindo</a>
-</p>
+#### Hero Section
+- Partículas animadas em tempo real
+- Gradientes dinâmicos que seguem o mouse
+- Visualização 3D do produto
+- Bolhas de chat animadas
+- Efeitos de parallax
 
----
+#### Navbar Glassmorphism
+- Design translúcido com backdrop blur
+- Animações de menu mobile
+- Logo interativo com rotação
+- Navegação suave
 
-## 📝 Sobre o Projeto
+#### Features Cards
+- Cards com efeito glassmorphism
+- Hover effects com elevação
+- Ícones animados
+- Gradientes personalizados por categoria
 
-<img src="https://img.shields.io/badge/Status-Produção-success?style=for-the-badge" alt="Status: Produção" />
+#### Pricing Section
+- Cards interativos com comparação
+- Toggle entre planos mensais/anuais
+- Badges animados
+- Efeitos de glow
 
-O **BotZap** é uma solução completa de automação para WhatsApp Business, combinando inteligência artificial avançada com uma experiência de usuário intuitiva para transformar completamente seu atendimento ao cliente.
+#### Footer Moderno
+- Layout organizado com links categorizados
+- Newsletter integrada
+- Redes sociais com ícones animados
+- Botão "Voltar ao topo" flutuante
 
-Este repositório contém o código-fonte do site institucional e demonstrativo do BotZap, construído como uma Progressive Web App (PWA) moderna utilizando React, Vite e outras tecnologias de ponta.
+### 🔧 Sistema de Notificações
+- **Toast Notifications**: Sistema de notificações moderno
+- **Progress Bars**: Barras de progresso animadas
+- **Auto-dismiss**: Fechamento automático configurável
+- **Múltiplos Tipos**: Success, Error, Warning, Info
 
-### ✨ Por que BotZap?
+### 📱 PWA e Performance
+- **Progressive Web App**: Instalável como app nativo
+- **Service Worker**: Funcionalidade offline
+- **Lazy Loading**: Carregamento otimizado
+- **Image Optimization**: Otimização automática de imagens
 
-- **Atendimento 24/7** - Nunca mais perca uma mensagem ou cliente em potencial
-- **Redução de custos** - Automatize até 80% das interações rotineiras
-- **Escalabilidade** - Atenda centenas de conversas simultâneas sem sobrecarregar sua equipe
-- **Integração perfeita** - Conecte-se com suas ferramentas existentes (CRMs, ERP, e-commerce)
+### 🎨 Paleta de Cores Moderna
+```css
+/* Cores principais */
+--primary: #3b82f6 (Azul moderno)
+--secondary: #22c55e (Verde vibrante)
+--accent: #d946ef (Rosa/Magenta)
 
-<details>
-<summary><b>🚀 Veja o BotZap em ação</b></summary>
-<br>
-
+/* Gradientes */
+--gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%)
+--gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)
+--gradient-aurora: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57)
 ```
-[Cliente] → Olá, preciso de ajuda com meu pedido #12345
 
-[BotZap] → Olá! Estou verificando seu pedido #12345.
-           
-           ✅ Pedido confirmado em 05/05/2025
-           📦 Status atual: Em trânsito
-           🚚 Previsão de entrega: 08/05/2025
-           
-           Posso ajudar com mais alguma coisa?
-           
-           [Rastrear pedido] [Modificar pedido] [Falar com atendente]
+## 🛠️ Tecnologias Utilizadas
 
-[Cliente] → [Rastrear pedido]
+### Frontend
+- **React 19**: Framework principal
+- **TypeScript**: Tipagem estática
+- **Tailwind CSS**: Framework de estilos
+- **Framer Motion**: Animações
+- **React Router**: Navegação
 
-[BotZap] → Aqui está o rastreamento do seu pedido:
-           
-           05/05 - 14:30 - Pedido confirmado
-           05/05 - 17:45 - Em separação no estoque
-           06/05 - 09:15 - Pedido em trânsito
-           
-           Você receberá notificações automáticas quando houver atualizações!
-```
+### Ferramentas de Desenvolvimento
+- **Vite**: Build tool moderno
+- **ESLint**: Linting de código
+- **PostCSS**: Processamento de CSS
+- **Sharp**: Otimização de imagens
 
-</details>
+### Bibliotecas de UI
+- **React Three Fiber**: Renderização 3D
+- **React Helmet**: Gerenciamento de meta tags
+- **UUID**: Geração de IDs únicos
 
-## ✨ Recursos
-
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 30px;">
-  <div style="background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); border-radius: 10px; padding: 20px; width="280px; color: white; margin: 10px;">
-    <h3>🤖 IA Conversacional</h3>
-    <p>NLP avançado que entende intenções e contexto para interações naturais e precisas.</p>
-  </div>
-  <div style="background: linear-gradient(135deg, #34B7F1 0%, #0078FF 100%); border-radius: 10px; padding: 20px; width="280px; color: white; margin: 10px;">
-    <h3>🔄 Automação de Fluxos</h3>
-    <p>Editor visual de fluxos de conversa com condições, variáveis e integrações.</p>
-  </div>
-  <div style="background: linear-gradient(135deg, #128C7E 0%, #075E54 100%); border-radius: 10px; padding: 20px; width="280px; color: white; margin: 10px;">
-    <h3>📊 Analytics Avançado</h3>
-    <p>Métricas detalhadas, relatórios personalizados e insights para otimização.</p>
-  </div>
-  <div style="background: linear-gradient(135deg, #0078FF 0%, #00429b 100%); border-radius: 10px; padding: 20px; width="280px; color: white; margin: 10px;">
-    <h3>🌐 Multi-idiomas</h3>
-    <p>Suporte nativo a mais de 30 idiomas com detecção automática.</p>
-  </div>
-</div>
-
-### 📱 Funcionalidades Principais
-
-| Atendimento | Personalização | Integrações | Segurança |
-|-------------|----------------|-------------|-----------|
-| ✅ Respostas automáticas | ✅ Fluxos personalizados | ✅ APIs RESTful | ✅ Criptografia E2E |
-| ✅ Transferência para humano | ✅ Perguntas frequentes | ✅ Webhooks | ✅ Backups automáticos |
-| ✅ Agendamentos | ✅ Modelos de mensagem | ✅ Zapier | ✅ Conformidade LGPD |
-| ✅ Mídia rica (imagens, PDF) | ✅ Regras de negócio | ✅ Google Sheets | ✅ 2FA |
-| ✅ Catálogos de produtos | ✅ Variáveis dinâmicas | ✅ Shopify, WooCommerce | ✅ Logs detalhados |
-| ✅ Pesquisas de satisfação | ✅ Tags e segmentação | ✅ Salesforce, HubSpot | ✅ Perfis de acesso |
-
-## 🎬 Demonstração
-
-<div align="center">
-
-[![Demo BotZap](https://img.shields.io/badge/Demo_Online-Ver_Agora-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://bot-zap-site.vercel.app/)
-
-</div>
-
-<details>
-<summary><b>📸 Screenshots da plataforma</b></summary>
-<br>
-<div align="center">
-  <img src="public/screenshots/screenshot1.png" alt="Dashboard BotZap" width="80%" />
-  <p><i>Dashboard principal com métricas em tempo real</i></p>
-  <br>
-  <img src="public/screenshots/screenshot2.png" alt="Editor de fluxos" width="80%" />
-  <p><i>Editor visual de fluxos de conversação</i></p>
-</div>
-</details>
-
-<details>
-<summary><b>📋 Casos de Uso</b></summary>
-<br>
-
-- **E-commerce**: Automatize atendimento, status de pedidos e devolução
-- **Serviços Financeiros**: Consultas de saldo, transferências e atendimento
-- **Saúde**: Agendamento de consultas e acompanhamento de pacientes
-- **Educação**: Informações sobre cursos, matrícula e suporte aos alunos
-- **Imobiliárias**: Atendimento inicial, agendamento de visitas
-- **Restaurantes**: Pedidos, reservas e feedback dos clientes
-
-</details>
-
-## 🛠️ Tecnologias
-
-O projeto utiliza um stack moderno com foco em performance e experiência do usuário:
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-        <br>React
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-        <br>TypeScript
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
-        <br>Tailwind
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
-        <br>Vite
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="Three.js" />
-        <br>Three.js
-      </td>
-      <td align="center">
-        <img src="https://api.iconify.design/simple-icons/framer.svg?color=%23000&height=48" width="48" height="48" alt="Framer Motion" />
-        <br>Framer
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-        <br>Node.js
-      </td>
-      <td align="center">
-        <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
-        <br>Express
-      </td>
-    </tr>
-  </table>
-</div>
-
-### 📚 Recursos Técnicos
-
-- **Componentes Reutilizáveis**: Biblioteca de UI consistente e acessível
-- **Code-Splitting**: Carregamento otimizado com React.lazy e Suspense
-- **Responsividade**: Design adaptativo para todos os dispositivos
-- **SEO Otimizado**: React Helmet para meta tags dinâmicas
-- **Animações**: Transições suaves e interações ricas com Framer Motion
-- **3D Interativo**: Visualização de modelos 3D com Three.js
-- **PWA Avançado**: Funcionalidades offline e instalável como aplicativo
-- **Código Limpo**: TypeScript para maior robustez e autocompletion
-
-## 🚀 Começando
+## 🚀 Como Executar
 
 ### Pré-requisitos
-
-- Node.js 18.x ou superior
-- npm 8.x ou superior (ou yarn)
-- Git
+- Node.js 18+ 
+- npm ou yarn
 
 ### Instalação
-
 ```bash
-# Clone o repositório
+# Clonar o repositório
 git clone https://github.com/seu-usuario/botzap-site.git
-
-# Entre no diretório
 cd botzap-site
 
-# Instale as dependências
+# Instalar dependências
 npm install
-```
 
-### Desenvolvimento
-
-```bash
-# Inicie o ambiente de desenvolvimento
+# Executar em desenvolvimento
 npm run dev
 
-# Otimize as imagens (gera versões WebP e AVIF)
-npm run optimize-images
+# Build para produção
+npm run build
 
-# Execute os testes
-npm test
-
-# Verifique a qualidade do código
-npm run lint
-```
-
-### Produção
-
-```bash
-# Build otimizado para produção (inclui otimização de imagens)
-npm run build:prod
-
-# Visualize a build localmente
+# Preview da build
 npm run preview
-
-# Inicie o servidor de produção
-npm start
 ```
 
-## 🏗️ Arquitetura
+### Scripts Disponíveis
+```bash
+npm run dev          # Servidor de desenvolvimento
+npm run build        # Build de produção
+npm run preview      # Preview da build
+npm run lint         # Linting do código
+npm run optimize-images # Otimização de imagens
+```
 
-O projeto segue o padrão de arquitetura de componentes com enfoque em:
-
-- **Modularidade**: Componentes isolados e reutilizáveis
-- **Performance**: Estratégias avançadas de otimização
-- **Manutenibilidade**: Código limpo e bem documentado
-- **Experiência**: Foco na usabilidade e acessibilidade
-
-<details>
-<summary><b>📑 Estrutura de Diretórios</b></summary>
+## 📁 Estrutura do Projeto
 
 ```
-botzap-site/
-├── docs/               # Documentação detalhada
-├── public/             # Arquivos estáticos
-├── scripts/            # Scripts utilitários
-├── src/
-│   ├── assets/         # Recursos estáticos
-│   ├── components/     # Componentes reutilizáveis
-│   ├── layouts/        # Layouts para rotas
-│   ├── lib/            # Bibliotecas e utilitários
-│   └── service-worker  # Configuração PWA
-└── README.md
+src/
+├── components/          # Componentes React
+│   ├── Hero.jsx        # Seção principal
+│   ├── Navbar.jsx      # Navegação
+│   ├── Features.jsx    # Recursos
+│   ├── Pricing.jsx     # Preços
+│   ├── Footer.jsx      # Rodapé
+│   ├── Toast.jsx       # Sistema de notificações
+│   ├── LoadingSpinner.jsx # Estados de carregamento
+│   └── ParticleBackground.jsx # Partículas animadas
+├── lib/                # Utilitários
+├── assets/             # Recursos estáticos
+├── types/              # Definições TypeScript
+└── App.tsx             # Componente principal
 ```
-</details>
 
-<details>
-<summary><b>📘 Documentação Detalhada</b></summary>
-<br>
+## 🎨 Customização
 
-Nossa documentação completa está disponível nos seguintes arquivos:
+### Cores e Temas
+As cores podem ser personalizadas no arquivo `tailwind.config.js`:
 
-- [📄 Visão Técnica Geral](docs/TECHNICAL.md)
-- [⚛️ Implementação React](docs/REACT.md)
-- [🧭 Sistema de Rotas](docs/ROUTER.md) 
-- [✨ Animações](docs/ANIMATION.md)
-- [🔌 Funcionalidade Offline](docs/OFFLINE.md)
-- [📱 Design Responsivo](docs/RESPONSIVE.md)
-- [🚀 Guia de Deploy](docs/DEPLOY.md)
+```javascript
+colors: {
+  'primary': {
+    50: '#eff6ff',
+    500: '#3b82f6',
+    900: '#1e3a8a',
+  },
+  // ... outras cores
+}
+```
 
-</details>
+### Animações
+As animações podem ser ajustadas no arquivo `src/index.css`:
 
-## 📊 Performance
+```css
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+```
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x150/0F172A/FFFFFF?text=Métricas+de+Performance" alt="Métricas de Performance" width="80%" />
-</div>
+## 📱 Responsividade
 
-| Métrica | Desktop | Mobile |
-|---------|---------|--------|
-| Performance | 97/100 | 92/100 |
-| Acessibilidade | 96/100 | 96/100 |
-| Melhores Práticas | 98/100 | 98/100 |
-| SEO | 100/100 | 99/100 |
-| First Contentful Paint | 0.8s | 1.2s |
-| Largest Contentful Paint | 1.2s | 1.8s |
-| Tempo de Interação | 1.1s | 2.0s |
+O site é totalmente responsivo com breakpoints:
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
 
-## 🤝 Contribuindo
+## 🔧 Configurações Avançadas
 
-Contribuições são bem-vindas e muito apreciadas! Siga os passos abaixo:
+### PWA
+Configure o PWA no arquivo `public/manifest.json`:
+```json
+{
+  "name": "BotZap",
+  "short_name": "BotZap",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#3b82f6"
+}
+```
 
-### Processo de contribuição
+### SEO
+Otimize o SEO no arquivo `index.html`:
+```html
+<meta name="description" content="Automatize seu WhatsApp Business com IA avançada">
+<meta name="keywords" content="whatsapp, bot, automação, ia">
+```
 
-1. Faça um fork do projeto
-2. Crie sua branch de feature: `git checkout -b feature/nome-incrivel`
-3. Commit suas alterações: `git commit -m 'feat: adiciona funcionalidade incrível'`
-4. Push para a branch: `git push origin feature/nome-incrivel`
+## 🚀 Deploy
+
+### Vercel (Recomendado)
+```bash
+npm install -g vercel
+vercel
+```
+
+### Netlify
+```bash
+npm run build
+# Fazer upload da pasta dist/
+```
+
+## 📈 Performance
+
+### Métricas Otimizadas
+- **Lighthouse Score**: 95+ em todas as categorias
+- **First Contentful Paint**: < 1.5s
+- **Largest Contentful Paint**: < 2.5s
+- **Cumulative Layout Shift**: < 0.1
+
+### Otimizações Implementadas
+- Lazy loading de componentes
+- Otimização de imagens automática
+- Code splitting
+- Service worker para cache
+- Compressão de assets
+
+## 🤝 Contribuição
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-<details>
-<summary><b>📏 Padrões de código</b></summary>
-<br>
+## 📄 Licença
 
-- Utilizamos ESLint e Prettier para manter a consistência do código
-- Seguimos a convenção de commits do [Conventional Commits](https://www.conventionalcommits.org/)
-- Todos os componentes devem ser documentados com JSDoc
-- Testes são obrigatórios para funcionalidades críticas
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-</details>
+## 📞 Suporte
 
-
-## Aviso Legal
-
-Este projeto não é afiliado, associado, autorizado, endossado ou de qualquer forma oficialmente conectado ao WhatsApp ou a qualquer uma de suas subsidiárias ou afiliadas. O site oficial do WhatsApp pode ser encontrado em [whatsapp.com][whatsapp]. "WhatsApp", bem como nomes, marcas, emblemas e imagens relacionados, são marcas registradas de seus respectivos proprietários. Além disso, não há garantia de que você não será bloqueado usando este método. O WhatsApp não permite bots ou clientes não oficiais em sua plataforma, portanto, isso não deve ser considerado totalmente seguro.
-
-## 📜 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## 📞 Contato
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-lucas.magista1@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.magista1@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-(17)_99278--5352-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5517992785352)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-lucasmagista-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-magista-67376a202/)
-
-</div>
+Para suporte, envie um email para contato@botzap.com.br ou abra uma issue no GitHub.
 
 ---
 
-<div align="center">
-  <img src="public/icons/icon-72x72.png" alt="BotZap Icon" width="40" /><br>
-  <p><strong>BotZap</strong> - Transformando conversas em conversões.</p>
-  <sub>© 2025 BotZap. Todos os direitos reservados.</sub>
-</div>
+**BotZap** - Transformando atendimento com IA avançada 🤖✨
